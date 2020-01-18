@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
-<meta name="description" content="小兵物语"/><link rel="alternate" href="/atom.xml" title="是也"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0" />
+<meta name="description" content="小兵物语"/><meta name="keywords" content="杨叛, 小兵物语, 简单武侠, 是也" /><link rel="alternate" href="/atom.xml" title="是也"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0" />
 <link rel="canonical" href="https://zh.fyi/5e2t/"/>
 
 <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
@@ -181,6 +181,11 @@
       </div>
       
       <footer class="post-footer">
+        <div class="post-tags">
+            <a href="/tags/%E6%9D%A8%E5%8F%9B/">杨叛</a>
+            <a href="/tags/%E5%B0%8F%E5%85%B5%E7%89%A9%E8%AF%AD/">小兵物语</a>
+            <a href="/tags/%E7%AE%80%E5%8D%95%E6%AD%A6%E4%BE%A0/">简单武侠</a>
+            </div>
         
         <nav class="post-nav"><a class="prev" href="/d4b1/">
         <i class="iconfont icon-left"></i>
@@ -193,7 +198,13 @@
         <i class="iconfont icon-right"></i>
       </a>
     </nav></footer>
-    </article></div><div class="comments" id="comments"></div></div>
+    </article></div><div class="comments" id="comments"><div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div></div>
       </main>
 
       <footer id="footer" class="footer"></footer>
@@ -201,7 +212,21 @@
       <div class="back-to-top" id="back-to-top">
         <i class="iconfont icon-up"></i>
       </div>
-    </div><script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
+    </div><script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://zh.fyi/5e2t/';
+        this.page.identifier = '5e2t/';
+        this.page.title = '小兵物语';
+    };
+    (function() {
+    var d = document, s = d.createElement('script');
+
+    s.src = '//zhfyi.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();  
+  </script><script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
   <script type="text/javascript" src="/js/src/even.js?v=2.11.0"></script>
