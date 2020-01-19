@@ -121,7 +121,13 @@
         <i class="iconfont icon-right"></i>
       </a>
     </nav></footer>
-    </article></div><div class="comments" id="comments"></div></div>
+    </article></div><div class="comments" id="comments"><div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div></div>
       </main>
 
       <footer id="footer" class="footer"></footer>
@@ -129,7 +135,21 @@
       <div class="back-to-top" id="back-to-top">
         <i class="iconfont icon-up"></i>
       </div>
-    </div><script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
+    </div><script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://zh.fyi/d2f6/';
+        this.page.identifier = 'd2f6/';
+        this.page.title = '埃及来信：阿拉伯之春，失败的革命';
+    };
+    (function() {
+    var d = document, s = d.createElement('script');
+
+    s.src = '//zhfyi.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();  
+  </script><script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
   <script type="text/javascript" src="/js/src/even.js?v=2.11.0"></script>
