@@ -63,9 +63,9 @@
     
     
     
-      <category term="BBC News 中文" scheme="https://e.wht.one/tags/BBC-News-%E4%B8%AD%E6%96%87/"/>
-    
       <category term="海盗" scheme="https://e.wht.one/tags/%E6%B5%B7%E7%9B%97/"/>
+    
+      <category term="BBC News 中文" scheme="https://e.wht.one/tags/BBC-News-%E4%B8%AD%E6%96%87/"/>
     
   </entry>
   
@@ -302,11 +302,11 @@
     
     
     
+      <category term="BBC News 中文" scheme="https://e.wht.one/tags/BBC-News-%E4%B8%AD%E6%96%87/"/>
+    
       <category term="朝鲜" scheme="https://e.wht.one/tags/%E6%9C%9D%E9%B2%9C/"/>
     
       <category term="脱北者" scheme="https://e.wht.one/tags/%E8%84%B1%E5%8C%97%E8%80%85/"/>
-    
-      <category term="BBC News 中文" scheme="https://e.wht.one/tags/BBC-News-%E4%B8%AD%E6%96%87/"/>
     
   </entry>
   
