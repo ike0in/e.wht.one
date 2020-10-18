@@ -462,7 +462,7 @@ h6 {
     text-align: center;
     float: none; }
     .header .logo-wrapper .logo {
-      font-size: 48px;
+      font-size: 55px;
       font-family: "Helvetica Neue", "Chancery", cursive, LiSu, sans-serif; }
   @media screen and (max-width: 800px) {
     .header .logo-wrapper {
@@ -474,7 +474,7 @@ h6 {
       display: inline-block;
       position: relative;
       padding-left: 0;
-      padding-right: 25px;
+      padding-right: 0;
       font-family: "Helvetica Neue", Microsoft Yahei, STHeiti, Athelas, serif; }
       .header .site-navbar .menu .menu-item {
         display: inline-block;
@@ -503,7 +503,7 @@ h6 {
           right: 0;
           left: 0; }
       .header .site-navbar .menu .menu-item-link {
-        font-size: 18px; }
+        font-size: 16px; }
   @media screen and (max-width: 800px) {
     .header .site-navbar {
       display: none; } }
@@ -517,7 +517,7 @@ h6 {
   margin-bottom: 20px; }
 
 .post {
-  padding: 1.5em 0; }
+  padding: 1.5em 0 1.5em 0.5em; }
   .post + .post {
     border-top: 1px solid #e6e6e6; }
   .post .post-header {
